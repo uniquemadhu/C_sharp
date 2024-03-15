@@ -1,0 +1,32 @@
+﻿<%@ Master Language="C#" AutoEventWireup="true" CodeFile="TestingMasterPage.master.cs" Inherits="MasterPage_TestingMasterPage" %>
+
+<!DOCTYPE html>
+
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head runat="server">
+    <title>Sign In</title>
+    <asp:ContentPlaceHolder id="head" runat="server">
+    </asp:ContentPlaceHolder>
+    <link href="../ASPX_Styles/css/bootstrap.css" rel="stylesheet" />
+    <script src="../ASPX_Styles/js/bootstrap.min.js"></script>
+    <link href="../ASPX_Styles/css/font-awesome.css" rel="stylesheet" />
+</head>
+<body>
+    <form id="form1" runat="server">
+       
+        <div>
+          
+            <h1 class="text-center p-3" style="background-color:steelblue; height:80px; font-size:40px">STUDENT PROFILE</h1>
+        </div>
+    <div>
+        <asp:ContentPlaceHolder id="ContentPlaceHolder1" runat="server">
+            
+        </asp:ContentPlaceHolder>
+    </div>
+        <div class="text-center p-3" style="background-color:steelblue; height:50px">
+            <h2>© 2020 Copyright:Google Chrome.com</h2>
+        </div>
+
+    </form>
+</body>
+</html>
